@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>サンプルレイアウト01</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+	<script src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+
+	<script src="static/js/menu_closer.js"></script>
+	<link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+
+    <header>
+        <div id="title_area" class="title_area">
+            <div class="title">ページタイトル</div>
+        </div>
+
+        <input id="menu_button" class="menu_button" type="checkbox">
+        <label class="menu_label" for="menu_button">
+            <div class="menu_open_icon"><i class="fas fa-bars"></i></div>
+            <div class="menu_close_icon"><i class="fas fa-times"></i></div>
+        </label>
+
+        <div id="menu_closer" class="menu_closer"></div>
+
+        <!--メニューエリア PC表示時、左側に表示。SP表示時、サイドバーとして機能する-->
+        <nav id="menu_area" class="menu_area">
+            <a href="" ><div class="menu_content">会員サイトログイン</div></a>
+            <a href="" ><div class="menu_content">施設案内</div></a>
+            <a href="" ><div class="menu_content">スタッフ紹介</div></a>
+            <a href="" ><div class="menu_content">トレーニングプラン</div></a>
+            <a href="" ><div class="menu_content">採用情報</div></a>
+            <a href="" ><div class="menu_content">ブログ</div></a>
+            <a href="" ><div class="menu_content">SNSリンク</div></a>
+            <a href="" ><div class="menu_content">ショップ</div></a>
+        </nav>
+    </header>
+
+    <!--サイトアクセス時に表示する全画面画像はここ
+        アニメーションを実装させ、背景画像を切り替えるようにするのもアリ？-->
+    <div class="wallpaper">
+        <img src="static/media/wallpaper01.jpg" alt="背景画像">
+    </div>
+
+    <!--メインエリア、ここにサイトの本文を書く-->
+    <main>
+
+    ここに本文を書く
+
+    </main>
+
+
+
+</body>
+</html>
+
